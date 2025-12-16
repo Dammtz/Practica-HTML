@@ -1,0 +1,45 @@
+:root {
+     --color-de-encabezados: #361D20; 
+     --color-de-enlaces: #493736; 
+     --color-de-div: #c0dbaba2;
+     --color-de-footer-header: #e7d9b4;
+}
+
+body {
+    background-image: url(img/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 150vh;
+    font-family: "Dancing Script", cursive;
+} 
+
+header {
+    text-align: center;
+    background-color: var(--color-de-footer-header)
+}
+
+main {
+    background-color: var(--color-de-div);
+text-align: center;
+}
+
+h1, h2 {
+     font-family: "Caveat", cursive;
+     color: var(--color-de-encabezados);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 40%;
+}
+
+
+footer {
+    background-color: var(--color-de-footer-header);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
