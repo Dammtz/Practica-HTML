@@ -1,8 +1,10 @@
 :root {
      --color-de-encabezados: #361D20; 
      --color-de-enlaces: #493736; 
-     --color-de-div: #c0dbaba2;
-     --color-de-footer-header: #e7d9b4;
+     --color-de-presentacion:#9ed1b781 ;
+     --color-de-footer-header: #e7d9b49a;
+     --color-de-hobbies:#92b4a677 ;
+     --color-de-musica: #c0dbaba2;
 }
 
 body {
@@ -15,14 +17,13 @@ body {
     font-family: "Dancing Script", cursive;
 } 
 
-header {
+.encabezado-principal {
     text-align: center;
     background-color: var(--color-de-footer-header)
 }
 
 main {
-    background-color: var(--color-de-div);
-text-align: center;
+    text-align: center;
 }
 
 h1, h2 {
@@ -36,6 +37,31 @@ img {
     border-radius: 40%;
 }
 
+.presentacion {
+    background-color: var(--color-de-presentacion);
+    margin: 30px;
+}
+
+.hobbies{
+    margin: 30px;
+    background-color: var(--color-de-hobbies);
+}
+
+.musica {
+    margin: 30px;
+    background-color: var(--color-de-musica);
+}
+ul li {
+    list-style: none;
+}
+
+ol {
+    text-align: center;
+}
+
+a {
+    color: var(--color-de-enlaces);
+}
 
 footer {
     background-color: var(--color-de-footer-header);
